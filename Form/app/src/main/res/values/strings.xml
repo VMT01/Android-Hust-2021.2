@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Form</string>
+    <string name="student_id">Student ID:</string>
+    <string name="lorem">\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum risus lorem, vel pharetra velit dictum et. Duis ligula eros, eleifend ac augue a, tempor aliquet felis. Curabitur pretium commodo leo eu pulvinar. Sed eget dictum purus. Integer a purus tellus. Aliquam ullamcorper massa et nunc bibendum, non interdum massa pharetra. Nam semper iaculis tristique. Phasellus at urna volutpat, lacinia neque sit amet, cursus quam. Aliquam ultrices arcu sed leo molestie interdum et id nulla. Nam gravida, metus quis sodales aliquet, libero nisl sagittis leo, vitae aliquam ex erat eu massa. Fusce id risus dictum, pulvinar dolor at, molestie metus.\n\tPhasellus odio arcu, cursus a sem sed, elementum sodales lorem. Etiam vitae justo molestie, ultrices nibh quis, euismod neque. Quisque ac nulla ornare, consectetur arcu non, molestie velit. Sed sodales, nisi ut consectetur cursus, risus nunc suscipit lectus, at elementum nunc orci ac enim. Sed ullamcorper, diam auctor efficitur ullamcorper, lectus enim auctor turpis, iaculis gravida elit orci non augue. Nulla posuere ut sem non eleifend. Praesent et tellus in tellus viverra posuere. Nulla nec eleifend sem. Mauris rutrum convallis sollicitudin. Suspendisse lectus urna, facilisis eu congue ut, aliquet sit amet augue.\n\tMorbi in diam laoreet, imperdiet nibh vitae, fermentum mi. Suspendisse sodales, ligula non condimentum volutpat, enim lacus elementum tortor, at rhoncus risus libero commodo lorem. Nulla sit amet elit leo. Quisque tristique consequat euismod. Integer nisl nisl, ullamcorper sed tempor nec, scelerisque id tellus. Aliquam erat volutpat. Sed ultrices eu ipsum sed aliquet. Pellentesque eleifend pulvinar ex ac sagittis. Nullam et dolor sit amet dolor vulputate facilisis. Sed ligula magna, placerat vitae sodales ut, euismod maximus felis. Maecenas eleifend, tortor in vulputate vehicula, dui lectus sollicitudin diam, finibus ullamcorper enim neque a libero. Cras egestas dictum odio at interdum. Nullam dapibus, nisl ut posuere facilisis, est urna rhoncus turpis, ac tempor sapien augue sed diam. Aliquam vitae ligula ac diam gravida maximus. In mauris nunc, vulputate eget tristique ut, bibendum cursus justo.\n\tDonec vel mollis quam, semper dignissim turpis. Morbi non nibh sit amet nisl finibus iaculis ut eget nisl. Donec velit felis, gravida in tempor sed, tempus nec est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec consequat, eros vitae rutrum pellentesque, ante nisl pretium mi, quis mattis lacus dolor id magna. Praesent semper turpis eu risus congue mattis. Etiam sit amet efficitur justo, et lacinia enim. Aliquam ac ligula eget turpis luctus faucibus. Integer fermentum erat quis nibh scelerisque, quis eleifend massa posuere. Proin iaculis metus nec velit luctus tincidunt. Proin consequat mi velit, molestie fringilla velit elementum laoreet. Etiam in purus augue. Donec massa quam, maximus sed convallis id, tempus et eros.\n\tCurabitur id nunc odio. Integer malesuada, mauris id convallis maximus, dolor justo iaculis nibh, vitae placerat est enim eget erat. Donec imperdiet auctor tellus. Sed tempor quis nisl sit amet ullamcorper. Nunc rutrum sem sed dui accumsan vulputate. Pellentesque eleifend lacus in urna blandit, eu imperdiet nisi varius. Etiam pharetra aliquet magna. Praesent hendrerit feugiat mauris, quis auctor nulla porta iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non massa eu nibh congue dapibus. Cras vel tincidunt nisl, id facilisis augue. Phasellus et nibh quis sem accumsan vulputate at ac justo. Sed id sapien eu ligula consequat porta vel sed risus. Etiam bibendum arcu ac nisi feugiat dictum. Quisque quis malesuada tellus.</string>
+    <string name="full_name">Full name :</string>
+    <string name="identification">Identification:</string>
+    <string name="phone_number">Phone number:</string>
+    <string name="email_address">Email address:</string>
+    <string name="birthday">Birthday:</string>
+    <string name="country">Country:</string>
+    <string name="address_now">Address now:</string>
+    <string name="major">Major:</string>
+    <string name="IT1">Khoa học máy tính</string>
+    <string name="IT2">Kĩ thuật máy tính</string>
+    <string name="other">Khác</string>
+    <string name="language">Language:</string>
+    <string name="clang">C/C++</string>
+    <string name="csharp">C#</string>
+    <string name="java">Java</string>
+    <string name="javascript">Java Script</string>
+    <string name="python">Python</string>
+    <string name="php">PHP</string>
+    <string name="all_information_are_right">All information are right!</string>
+    <string name="submit">SUBMIT</string>
+</resources>
