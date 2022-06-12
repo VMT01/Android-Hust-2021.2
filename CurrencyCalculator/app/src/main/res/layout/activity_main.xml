@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeeeee"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            tools:ignore="NestedWeights" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/_0"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:background="#eeeeeeee"
+            android:gravity="center"
+            android:text="@string/_0"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            tools:ignore="NestedWeights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#eeeeeeee"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="clear"
+            android:text="@string/ce"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="ButtonStyle, UsingOnClickInXml" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="backspace"
+            android:text="@string/backspace"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="seven"
+            android:text="@string/_7"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="eight"
+            android:text="@string/_8"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="nine"
+            android:text="@string/_9"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="four"
+            android:text="@string/_4"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="five"
+            android:text="@string/_5"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="six"
+            android:text="@string/_6"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="one"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="two"
+            android:text="@string/_2"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="three"
+            android:text="@string/_3"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#eeeeeeee"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="zero"
+            android:text="@string/_0"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2000000"
+            android:onClick="dot"
+            android:text="@string/dot"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="NestedWeights,OnClick,UsingOnClickInXml" />
+
+
+    </LinearLayout>
+</LinearLayout>
